@@ -14,17 +14,17 @@
 <body>
   <div class="grid">
     <div class="initial">
-      <nav>
+      <nav id="nav">
         <div class="logo"><h1>sunnyside</h1></div>
         <div class="menu-hamburguer">
-          <img src="images/icon-hamburger.svg" alt="">
+          <img class="icon-hamburguer" src="images/icon-hamburger.svg" alt="menu-hamburguer">
         </div>
         <div class="menu">
           <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a class="last-a" href="#">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -106,7 +106,27 @@
       <div class="cone"></div>
       <div class="suggar"></div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+      <div class="sunnyside">
+        <h1>sunnyside</h1>
+      </div>
+      <div class="menu-footer">
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sociais">
+        <img class="icon-sociais" src="images/icon-facebook.svg" alt="icon-facebook">
+        <img class="icon-sociais" src="images/icon-instagram.svg" alt="icon-instagram">
+        <img class="icon-sociais" src="images/icon-twitter.svg" alt="icon-twitter">
+        <img class="icon-sociais" src="images/icon-pinterest.svg" alt="icon-pintarest">
+      </div>
+    </div>
   </div>
+  <script src="script/script.js"></script>
 </body>
 </html>
