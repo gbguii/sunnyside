@@ -55,4 +55,31 @@
         text-align:center;
         line-height: 24px;
     }
+    .project{
+        display: flex;
+    }
+    .bottles{
+        background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
+    }
+    .orangee{
+        background-image: url(../images/desktop/image-gallery-orange.jpg);
+
+    }
+    .cone{
+        
+        background-image: url(../images/desktop/image-gallery-cone.jpg);
+
+    }
+    .suggar{
+        background-image: url(../images/desktop/image-gallery-sugarcubes.jpg);
+    }
+    .footer .menu-footer nav ul{
+        margin: 0 auto;
+        width: 50%;
+    }
+    .sociais{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+    }
 }

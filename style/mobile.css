@@ -21,6 +21,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Fraunces', serif;
+    scroll-behavior: smooth;
 }
 .grid{
     display: grid;
@@ -269,7 +270,10 @@
     flex-direction: column;
     padding: 50px 30px;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+}
+.cliente-space{
+    height: 80%;
 }
 .cliente .h1{
     font-weight: 600;
