@@ -36,4 +36,23 @@
     .bootles{
         background-image: url(../images/desktop/image-gallery-milkbottles.jpg);
     }
+    .cliente{
+        height: 100vh;
+        padding: 80px 30px;
+    }
+    .cliente-space{
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+    }
+    .first-client, .second-client, .third-client{
+        justify-content: space-evenly;
+        height: 100%;
+        padding: 20px;
+    }
+    .description-client{
+        font-size: 0.9rem;
+        text-align:center;
+        line-height: 24px;
+    }
 }
