@@ -6,9 +6,14 @@ function toggleMenu(){
     nav.classList.toggle("active");
 }
 
-
+function closeMenu(evento){
+    if(nav.classList.contains("active")){
+        if(evento.path[0].classList != "icon-hamburguer"){
+            toggleMenu();
+        }
+    }
+}
 menuHamburger.addEventListener("click", toggleMenu);
-menuOptions.addEventListener("click", toggleMenu);
 
-
+document.body.addEventListener("click", closeMenu);
 
