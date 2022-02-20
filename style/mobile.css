@@ -66,7 +66,7 @@
     transform: translate(-50%, -50%);
     height: 0;
     width: 80%;
-    transition: 1s all;
+    transition: .6s all;
     overflow-y: hidden;
     background-color: white;
 }
