@@ -69,6 +69,7 @@
     transition: .6s all;
     overflow-y: hidden;
     background-color: white;
+    border-radius: 5px;
 }
 .menu ul{
     list-style: none;
@@ -87,6 +88,7 @@
 .menu ul li a{
     text-decoration: none;
     color: var(--Grayish-blue);
+    padding: 0px 100px;
 }
 .menu ul li:last-child{
     background-color: var(--Yellow);
@@ -357,7 +359,8 @@
     padding: 50px 30px;
     background-color: var(--Dark-moderate-cyan);
 }
-.footer .sunnyside{
+.footer .sunnyside h1 a{
+    text-decoration: none;
     color: var(--Dark-desaturated-cyan-);
     font-weight: 800;
 }
