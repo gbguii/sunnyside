@@ -17,6 +17,9 @@
         background-image: url(../images/desktop/image-header.jpg);
         height: 100vh;
     }
+    .menu ul li a{
+        padding: 0px 100px;
+    }
     .egg{
         background-image: url(../images/desktop/image-transform.jpg);
         height: 100%;
